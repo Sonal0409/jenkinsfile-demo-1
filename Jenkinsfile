@@ -1,7 +1,6 @@
 pipeline{
     agent any 
-    // here any = any available server that jenkins can connect to
-    // that means the agent is current server only
+
     
     tools{
         maven 'mymaven'
